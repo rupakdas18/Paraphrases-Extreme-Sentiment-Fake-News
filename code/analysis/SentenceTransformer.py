@@ -123,23 +123,3 @@ if __name__ == "__main__":
         
         print(f"Semantic similarities saved to: {output_path}")
 
-
-    # paraphraser = 'llama'
-    # dataset_choice = 'isot'
-    # num_classes = 2
-    # language = 'en'
-    # classifier = 'supervised'
-    # sentiment = 'positive'  # 'positive', '_negative', '_neutral'
-
-
-    # full_df, train_df, test_df, valid_df =  load_data.data_load(dataset_choice,num_classes,paraphraser,language,classifier,sentiment)
-    # print(full_df.head())
-
-    # df=full_df.dropna()
-
-    # # Compute similarity and save
-    # output_path = f'results/semantics/{dataset_choice}_{paraphraser}_{sentiment}_semantic_similarity.csv'
-    # df = compute_semantic_similarity(df,paraphraser,sentiment)
-    # df.to_csv(output_path, index=False)
-    
-    # print(f"Semantic similarities saved to: {output_path}")
